@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ImageButton, Index, Background } from './Projects.style';
+import { ImageButton, Index, Background } from './Instructors.style';
 import { Container, Relative, Flex, marginBottom } from '../../theme/grid';
 import { A, Links } from '../../theme/types';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';

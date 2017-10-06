@@ -2,8 +2,8 @@ import React from 'react';
 import { IndexRoute, Router, Route, hashHistory } from 'react-router';
 import Home from './containers/Home/Home';
 import App from './containers/App/App';
-import Projects from './containers/Projects/Projects';
-import AboutMe from './containers/AboutMe/AboutMe';
+import Instructors from './containers/Instructors/Instructors';
+import Schedule from './containers/Schedule/Schedule';
 
 
 
@@ -12,7 +12,7 @@ export default (
       <Route path="/" component={App}>
         <IndexRoute component={Home}/>
       </Route>
-      <Route path="/projects" component={Projects}/>
-      <Route path="/aboutMe" component={AboutMe}/>
+      <Route path="/instructors" component={Instructors}/>
+      <Route path="/schedule" component={Schedule}/>
   </Router>
 );
