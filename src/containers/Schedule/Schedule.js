@@ -7,26 +7,7 @@ import { Flex } from '../../theme/grid';
 
 
 
-const Video = {
-  opts1: {
-      height: '390',
-      width: '640',
-      id: "jzD3OS_hiRI"
-  },
-  opts2: {
-      height: '390',
-      width: '640',
-      id: "SXTWA4Q4MKU"
-  },
-  opts3: {
-      height: '390',
-      width: '640',
-      id: "xZV6wzI2aN8"
-  }
-
-};
-
-class AboutMe extends Component {
+class Schedule extends Component {
   render() {
     return (
       <Container>
@@ -38,4 +19,4 @@ class AboutMe extends Component {
 }
 
 
-export default AboutMe;
+export default Schedule;

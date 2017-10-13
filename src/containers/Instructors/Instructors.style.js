@@ -21,10 +21,12 @@ export const Img = styled.img`
 width: 50%;
 height: 50%;
 padding-right: 20px;
+margin-top: -10%;
 
 `;
 
 export const P = styled.p`
+  margin-top: 10%;
   float: right;
   display: flex;
 `;

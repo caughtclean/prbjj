@@ -12,7 +12,7 @@ class NavigationBar extends Component {
       <NavigationContainer>
         <NavItem to="/">Home</NavItem>
         <NavItem to="/instructors">Instructors</NavItem>
-        <NavItem to="/schedule">Schedule</NavItem>
+        <NavItem to="/schedule">Schedule/Classes</NavItem>
       </NavigationContainer>
     );
   }
